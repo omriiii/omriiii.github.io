@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Omri Gideoni</title>
+		<meta name="description" content="Omri Gideoni's online portfolio">
+		<meta name="author" content="omrii">
+		<meta name="keywords" content="Omri Gideoni, omrii, Software Engineer, Game Designer, QA Tester">
+		<meta name="robots" content="index, follow">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="/res/css/style.css">
+		<link rel="stylesheet" href="/res/css/fonts.css">
+		<script src="//twemoji.maxcdn.com/2/twemoji.min.js?11.2"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		
+		
+		
+		<link rel="shortcut icon" href="res/graphics/favicon.gif" type="image/gif">
+		
+	</head>
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	
+	<body ng-app="">
+
+		<div ng-include="'includes/header.html'"></div>
+		
+		<main class="container project__page">
+		
+			<div class="project__header">
+				<h1 class="project__title">Ice Boy</h1>
+				<h2 class="project__subtitle">INDIE VIDEO GAME</h2>
+			</div>
+			
+			<div class="row project__info">
+				<div class="col-lg-8 project__section">
+					<p class="project__desc">
+						This game was made for GameJolt's 4th GBJam.<br>
+						(limitations: colors, screen size, date)<br>
+						<br>
+						Programmed everything from the ground up in GameMaker: Studio.<br>
+						Designed asdf<br>
+						Illustrated sprites in Paint.NET and animated in Aseprite.<br>
+						Composed a song in FL Studio and all the sound effects in bfxr.<br>
+					</p>
+					
+					
+					<div class="project__links">
+						<a style="direction: rtl;" href="https://omrii.itch.io/ice-boy">🔗 play it here <i class="fab fa-windows"></i></a> <br>
+					</div>
+				</div>
+				<div class="col-lg-auto project__section">
+					<h3 class="project__sectionHeader"> 💻 Tech </h3>
+					<ul>
+						<li> GameMaker: Studio</li>
+						<li> GML (semi-oop scripting language)</li>
+						<li> Implamented randomly generated levels</li>
+						<li> Paint.NET (Pixel art)</li>
+						<li> Aseprite (Animations)</li>
+						<li> FL Studio (Music and SFX)</li>
+						<li> bfxr (SFX)</li>
+						
+					</ul>
+				</div>
+			</div>
+			
+			<img class="project__image" src="/res/graphics/iceboy-pic0.gif">
+			<img class="project__image" src="/res/graphics/iceboy-pic1.gif">
+		</main>
+
+	</body>
+	
+    <script>
+		twemoji.parse(document.body, {folder: 'svg', ext: '.svg'});
+	</script>
+
+</html>
