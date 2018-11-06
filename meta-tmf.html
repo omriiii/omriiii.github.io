@@ -8,29 +8,24 @@
 		<meta name="description" content="Omri Gideoni's online portfolio">
 		<meta name="author" content="omrii">
 		<meta name="keywords" content="Omri Gideoni, omrii, Software Engineer, Game Designer, QA Tester">
-		<meta name="robots" content="index, follow">
+		<meta name="robots" content="noindex, nofollow">
 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 		<link rel="stylesheet" href="/res/css/style.css">
-		<link rel="stylesheet" href="/res/css/fonts.css">
-		<script src="//twemoji.maxcdn.com/2/twemoji.min.js?11.2"></script>
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		
 		
 		
 		<link rel="shortcut icon" href="res/graphics/favicon.gif" type="image/gif">
 		
+
 	</head>
 	
-
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-	
-	<body ng-app="">
-
-		<div ng-include="'includes/header.html'"></div>
-		
-		
+	<body>
+		{% include "includes/header.html" %}
 		<main class="container project__page">
-		
 			<div class="project__header">
 				<h1 class="project__title">thank mr friberg eSports Team</h1>
 				<h2 class="project__subtitle">WEBSITE</h2>
@@ -39,11 +34,16 @@
 			<div class="row project__info">
 				<div class="col-lg-8 project__section">
 					<p class="project__desc">
-						Small website made for my old CS:GO esports team called <i>thank mr friberg</i>
+						Solo project.<br>
+						Small website made for my old CS:GO esports team called <i>thank mr friberg</i><br>
+						Made to practice my Front-End Devloment skills.<br> 
+						<br>
+						Done Programming and Design.
 					</p>
 					
 					
 					<div class="project__links">
+						<a href="https://github.com/omriiii/tmf"><i class="fab fa-github"></i> source code</a> <br>
 						<a href="http://omriiii.github.io/tmf/">🔗 website link</a> <br>
 					</div>
 				</div>
@@ -53,9 +53,14 @@
 						<li> HTML5</li>
 						<li> CSS3</li>
 						<li> JavaScript</li>
+						<li> jQuery</li>
 						<li> NodeJS</li>
 						<li> GulpJS</li>
-						<li> jQuery</li>
+						<li> Boostrap</li>
+						<li> twemoji-awesome</li>
+						<li> font-awesome</li>
+						<li> SASS</li>
+						<li> Github/git</li>
 						<li> Chrome/Firefox Developer tools</li>
 						<li> Paint.NET</li>
 					</ul>
@@ -67,6 +72,7 @@
 
 	</body>
 	
+	<script src="//twemoji.maxcdn.com/2/twemoji.min.js?11.2"></script>
     <script>
 		twemoji.parse(document.body, {folder: 'svg', ext: '.svg'});
 	</script>

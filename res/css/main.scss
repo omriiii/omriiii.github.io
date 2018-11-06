@@ -46,7 +46,7 @@ ul
 	padding-inline-start: 20px;
 }
 
-.project__thumb
+.projectThumb
 {
 	width: 315px;
 	display: inline-block;
@@ -70,7 +70,7 @@ ul
 				color: black;
 				font-size: 28px;
 				display: inline-block; 
-				margin: 0 3px 0 0;
+				margin: 0 7px 0 0;
 				font-weight: 600;
 			}
 			
@@ -106,7 +106,6 @@ ul
 			
 			.project__desc
 			{
-				margin-bottom: 35px;
 			}
 			
 			.project__image
@@ -126,7 +125,7 @@ ul
 				margin-top: auto
 			}
 
-.videogame__title
+.projectThumb__title
 {
 	font-size: 18px;
 	color: #555555;
@@ -140,7 +139,7 @@ ul
 }
 
 
- .videogame__desc
+ .projectThumb__desc
 {
 	font-size: 12px;
 	color: #777777;
@@ -152,19 +151,11 @@ ul
 	font-family: "MS PGothic", Sans-Serif;
 }
 
-.videogame__image
+.projectThumb__image
 {
 	width: 315px;
 	height: 250px;
 }
-
-.website__image
-{
-	width: 475px;
-	height: 250px;
-}
-
-
 .inlineblock
 {
 	display: inline-block;
@@ -309,6 +300,10 @@ ul
     vertical-align: sub;
 }
 
+a .fab
+{
+	margin-right: 5px;
+}
 
 a .emoji
 {

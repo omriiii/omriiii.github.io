@@ -8,67 +8,54 @@
 		<meta name="description" content="Omri Gideoni's online portfolio">
 		<meta name="author" content="omrii">
 		<meta name="keywords" content="Omri Gideoni, omrii, Software Engineer, Game Designer, QA Tester">
-		<meta name="robots" content="index, follow">
+		<meta name="robots" content="noindex, nofollow">
 
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 		<link rel="stylesheet" href="/res/css/style.css">
-		<link rel="stylesheet" href="/res/css/fonts.css">
+		
 		<script src="//twemoji.maxcdn.com/2/twemoji.min.js?11.2"></script>
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 		
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+		
 		
 		<link rel="shortcut icon" href="res/graphics/favicon.gif" type="image/gif">
 		
+
 	</head>
 	
-
-	
-	<body ng-app="">
-
-		<div ng-include="'includes/header.html'"></div>
-		
+	<body>
+		{% include "includes/header.html" %}
 		<main class="container project__page">
 		
 			<div class="project__header">
-				<h1 class="project__title">KEYGEON</h1>
+				<h1 class="project__title">Little Passings</h1>
 				<h2 class="project__subtitle">INDIE VIDEO GAME</h2>
 			</div>
 			
 			<div class="row project__info">
 				<div class="col-lg-8 project__section">
 					<p class="project__desc">
-						Solo Project.<br>
-						Made for Mark Brown’s 2017 GMTK Jam. <br>
-						Made in 48 hours with the theme "dual-purpose design". <br> 
-						<br>
+						Duo project with my brother.<br>
+						Currently in development hiatus.<br>
+						Little Passings is a game of riddles.<br>
 						<br> 
-						<br>
-						Done Game Design, Programming, Art & Animation, Audio design and testing.
+						Done Game Design, Creative Writing, Programming and Art.
 					</p>
 					
-					
-					<div class="project__links">
-						<a href="https://www.youtube.com/watch?v=yDmjt-UfybM&feature=youtu.be&t=131">🏆 Won an honorable mention</a> <br>
-						<a href="https://twitter.com/karlyn_darlin/status/1012862218008977408">🔗 Showcased at the Video Game Art Gallery in Chicago</a> <br>
-						<a href="https://lostlevels.de/blog/kommt-ein-leveleditor-in-eine-bar-und-sagt-er-sei-ein-spiel">🔗 Showcased at keingame.de </a> <br>
-						<a href="https://omrii.itch.io/keygeon">⌨️  play it here! <i class="fab fa-windows"></i> <i class="fab fa-linux"></i></a> <br>
-					</div>
 				</div>
 				<div class="col-lg-auto project__section">
 					<h3 class="project__sectionHeader"> 💻 Tech </h3>
 					<ul>
 						<li> GameMaker: Studio</li>
 						<li> GML (semi-oop scripting language)</li>
+						<li> fake3d</li>
 						<li> Paint.NET (Pixel art)</li>
-						<li> Aseprite (Animations)</li>
-						<li> FL Studio (Music and SFX)</li>
 					</ul>
 				</div>
 			</div>
 			
-			<img class="project__image" src="/res/graphics/keygeon-pic0.gif">
+			<img class="project__image" src="/res/graphics/lp-pic0.gif">
 		</main>
 
 	</body>
