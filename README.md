@@ -13,3 +13,4 @@ online portfolio
 * on desktop have the homepage use `container-fluid` whereas on mobile we just use `container`
 * reshoot a video for tmf since it's a pixely gif mess rn
 * add online portfolio as a project
+* add desc to each thumb
