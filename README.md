@@ -5,7 +5,7 @@ online portfolio
 
 *master-branch* - Distribution code
 
-*gh-branch* - Source code
+*src-branch* - Source code
 
 ### TO DO
 * modularize projects page with nunjucks
